@@ -193,3 +193,22 @@ body {
     color: #b3b3b3;
   }
 }
+
+.focus {
+  background-color: white;
+  border-radius: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7rem 15rem;
+  gap: 2rem;
+}
+.focus__image {
+  border-radius: 5rem;
+  width: 100%;
+}
+.focus-paragraph {
+  font-size: 1.6rem;
+  color: var(--para-color);
+}
