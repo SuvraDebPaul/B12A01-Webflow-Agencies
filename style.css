@@ -250,3 +250,45 @@ body {
 .form textarea::placeholder {
   color: rgba(0, 0, 0, 0.5);
 }
+.footer {
+  height: 42rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  font-family: var(--logo-font);
+}
+
+.logo__text {
+  font-size: 10rem;
+  font-weight: bold;
+  text-align: center;
+}
+.logo_paragraph {
+  color: #8987a1;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: center;
+}
+.nav {
+  margin-top: 1.2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+.nav__item:not(:last-child) {
+  margin-right: 5rem;
+}
+.nav__link {
+  text-decoration: none;
+  color: #8987a1;
+  font-size: 1.6rem;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+.nav__item:hover .nav__link {
+  border-bottom: 2px solid var(--hover-color);
+}
