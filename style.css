@@ -214,7 +214,7 @@ body {
 }
 
 .contact-form {
-  margin-top: 9rem;
+  margin: 9rem auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
